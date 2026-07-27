@@ -6,8 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		74B9A5FD30142E8C007B716E /* MenuMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9A5FC30142E8C007B716E /* MenuMapApp.swift */; };
+		74B9A5FF30142E8C007B716E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9A5FE30142E8C007B716E /* ContentView.swift */; };
+		74B9A609301431C0007B716E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 74B9A608301431C0007B716E /* FirebaseAuth */; };
+		74B9A60B301431C0007B716E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 74B9A60A301431C0007B716E /* FirebaseFirestore */; };
+		74B9A60E301433A7007B716E /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 74B9A60D301433A7007B716E /* GoogleMaps */; };
+		74B9A6173014C518007B716E /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9A6163014C512007B716E /* AuthView.swift */; };
+		74B9A6193014C531007B716E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9A6183014C528007B716E /* MainTabView.swift */; };
+		74BBFF903014C98900D74FD5 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9A61A3014C686007B716E /* AuthViewModel.swift */; };
+		74BBFF913014C9B300D74FD5 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9A613301435C4007B716E /* Place.swift */; };
+		74BBFF933014CCBA00D74FD5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBFF923014CCB800D74FD5 /* ProfileView.swift */; };
+		74BBFF953014CD2B00D74FD5 /* Submission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBFF943014CD2900D74FD5 /* Submission.swift */; };
+		74BBFF973014CDE400D74FD5 /* AdminViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBFF963014CDE100D74FD5 /* AdminViewModel.swift */; };
+		74BBFF993014CE0200D74FD5 /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBFF983014CDFF00D74FD5 /* AdminView.swift */; };
+		74BBFF9B3014D1F100D74FD5 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBFF9A3014D1E900D74FD5 /* QRScannerView.swift */; };
+		74BBFF9E3014D20F00D74FD5 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBFF9D3014D20D00D74FD5 /* MapViewModel.swift */; };
+		74BBFFA03014D22C00D74FD5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBFF9F3014D22A00D74FD5 /* MapView.swift */; };
+		74BBFFA23014D4DE00D74FD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74BBFFA13014D4DE00D74FD5 /* GoogleService-Info.plist */; };
+		74BBFFAA301684B800D74FD5 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBFFA9301684B600D74FD5 /* SafariView.swift */; };
+		74BBFFAC30168A9700D74FD5 /* GoogleMapViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BBFFAB30168A9500D74FD5 /* GoogleMapViewWrapper.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		74B9A5F930142E8C007B716E /* MenuMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B9A5FC30142E8C007B716E /* MenuMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMapApp.swift; sourceTree = "<group>"; };
+		74B9A5FE30142E8C007B716E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74B9A613301435C4007B716E /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		74B9A6163014C512007B716E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		74B9A6183014C528007B716E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		74B9A61A3014C686007B716E /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		74BBFF923014CCB800D74FD5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		74BBFF943014CD2900D74FD5 /* Submission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submission.swift; sourceTree = "<group>"; };
+		74BBFF963014CDE100D74FD5 /* AdminViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewModel.swift; sourceTree = "<group>"; };
+		74BBFF983014CDFF00D74FD5 /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
+		74BBFF9A3014D1E900D74FD5 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		74BBFF9D3014D20D00D74FD5 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		74BBFF9F3014D22A00D74FD5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		74BBFFA13014D4DE00D74FD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74BBFFA9301684B600D74FD5 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		74BBFFAB30168A9500D74FD5 /* GoogleMapViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B9A609301431C0007B716E /* FirebaseAuth in Frameworks */,
+				74B9A60B301431C0007B716E /* FirebaseFirestore in Frameworks */,
+				74B9A60E301433A7007B716E /* GoogleMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,8 +73,13 @@
 		74B9A5F030142E8C007B716E = {
 			isa = PBXGroup;
 			children = (
+				74B9A612301435A3007B716E /* App */,
+				74B9A6113014355E007B716E /* ViewModels */,
+				74B9A61030143541007B716E /* Views */,
+				74B9A60F30143523007B716E /* Models */,
 				74B9A5FB30142E8C007B716E /* MenuMap */,
 				74B9A5FA30142E8C007B716E /* Products */,
+				74BBFFA13014D4DE00D74FD5 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +89,49 @@
 				74B9A5F930142E8C007B716E /* MenuMap.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		74B9A60F30143523007B716E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74BBFF943014CD2900D74FD5 /* Submission.swift */,
+				74B9A613301435C4007B716E /* Place.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74B9A61030143541007B716E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74BBFFAB30168A9500D74FD5 /* GoogleMapViewWrapper.swift */,
+				74BBFFA9301684B600D74FD5 /* SafariView.swift */,
+				74BBFF9F3014D22A00D74FD5 /* MapView.swift */,
+				74BBFF9A3014D1E900D74FD5 /* QRScannerView.swift */,
+				74BBFF983014CDFF00D74FD5 /* AdminView.swift */,
+				74BBFF923014CCB800D74FD5 /* ProfileView.swift */,
+				74B9A6183014C528007B716E /* MainTabView.swift */,
+				74B9A6163014C512007B716E /* AuthView.swift */,
+				74B9A5FE30142E8C007B716E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74B9A6113014355E007B716E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74BBFF9D3014D20D00D74FD5 /* MapViewModel.swift */,
+				74BBFF963014CDE100D74FD5 /* AdminViewModel.swift */,
+				74B9A61A3014C686007B716E /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74B9A612301435A3007B716E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				74B9A5FC30142E8C007B716E /* MenuMapApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +154,9 @@
 			);
 			name = MenuMap;
 			packageProductDependencies = (
+				74B9A608301431C0007B716E /* FirebaseAuth */,
+				74B9A60A301431C0007B716E /* FirebaseFirestore */,
+				74B9A60D301433A7007B716E /* GoogleMaps */,
 			);
 			productName = MenuMap;
 			productReference = 74B9A5F930142E8C007B716E /* MenuMap.app */;
@@ -94,6 +186,10 @@
 			);
 			mainGroup = 74B9A5F030142E8C007B716E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				74B9A607301431C0007B716E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				74B9A60C301433A7007B716E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 74B9A5FA30142E8C007B716E /* Products */;
 			projectDirPath = "";
@@ -109,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BBFFA23014D4DE00D74FD5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +216,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BBFF903014C98900D74FD5 /* AuthViewModel.swift in Sources */,
+				74B9A5FF30142E8C007B716E /* ContentView.swift in Sources */,
+				74BBFF9B3014D1F100D74FD5 /* QRScannerView.swift in Sources */,
+				74B9A5FD30142E8C007B716E /* MenuMapApp.swift in Sources */,
+				74BBFFA03014D22C00D74FD5 /* MapView.swift in Sources */,
+				74BBFF973014CDE400D74FD5 /* AdminViewModel.swift in Sources */,
+				74BBFFAA301684B800D74FD5 /* SafariView.swift in Sources */,
+				74BBFF993014CE0200D74FD5 /* AdminView.swift in Sources */,
+				74BBFFAC30168A9700D74FD5 /* GoogleMapViewWrapper.swift in Sources */,
+				74BBFF913014C9B300D74FD5 /* Place.swift in Sources */,
+				74B9A6173014C518007B716E /* AuthView.swift in Sources */,
+				74BBFF933014CCBA00D74FD5 /* ProfileView.swift in Sources */,
+				74B9A6193014C531007B716E /* MainTabView.swift in Sources */,
+				74BBFF953014CD2B00D74FD5 /* Submission.swift in Sources */,
+				74BBFF9E3014D20F00D74FD5 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,11 +363,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MenuMap/MenuMap.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5Q8M2VZAV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MenuMap;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Menü QR kodlarını tarayabilmek için kamera iznine ihtiyacımız var.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Haritada yakınındaki mekanları görebilmek için konum iznine ihtiyacımız var.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -266,7 +382,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.menumap.MenuMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menumap.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -279,11 +395,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MenuMap/MenuMap.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5Q8M2VZAV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MenuMap;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Menü QR kodlarını tarayabilmek için kamera iznine ihtiyacımız var.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Haritada yakınındaki mekanları görebilmek için konum iznine ihtiyacımız var.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.menumap.MenuMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.menumap.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,6 +444,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74B9A607301431C0007B716E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 12.16.0;
+			};
+		};
+		74B9A60C301433A7007B716E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 10.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74B9A608301431C0007B716E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74B9A607301431C0007B716E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		74B9A60A301431C0007B716E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74B9A607301431C0007B716E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		74B9A60D301433A7007B716E /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74B9A60C301433A7007B716E /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74B9A5F130142E8C007B716E /* Project object */;
 }
