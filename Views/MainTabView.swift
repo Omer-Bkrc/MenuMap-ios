@@ -16,7 +16,7 @@ struct MainTabView: View {
             if authViewModel.isAdmin {
                 AdminView(authViewModel: authViewModel)
                     .tabItem {
-                        Image(systemName: "shield.checkmark.fill")
+                        Image(systemName: "checkmark.shield.fill")
                         Text("Admin")
                     }
             }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		747A4D213020F6DA00146F73 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 747A4D203020F6DA00146F73 /* FirebaseMessaging */; };
 		74B9A5FD30142E8C007B716E /* MenuMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9A5FC30142E8C007B716E /* MenuMapApp.swift */; };
 		74B9A5FF30142E8C007B716E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9A5FE30142E8C007B716E /* ContentView.swift */; };
 		74B9A609301431C0007B716E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 74B9A608301431C0007B716E /* FirebaseAuth */; };
@@ -48,9 +49,22 @@
 		74BBFFAB30168A9500D74FD5 /* GoogleMapViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		747A4D23302103E200146F73 /* Exceptions for "MenuMap" folder in "MenuMap" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 74B9A5F830142E8C007B716E /* MenuMap */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		74B9A5FB30142E8C007B716E /* MenuMap */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				747A4D23302103E200146F73 /* Exceptions for "MenuMap" folder in "MenuMap" target */,
+			);
 			path = MenuMap;
 			sourceTree = "<group>";
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747A4D213020F6DA00146F73 /* FirebaseMessaging in Frameworks */,
 				74B9A609301431C0007B716E /* FirebaseAuth in Frameworks */,
 				74B9A60B301431C0007B716E /* FirebaseFirestore in Frameworks */,
 				74B9A60E301433A7007B716E /* GoogleMaps in Frameworks */,
@@ -70,6 +85,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		747A4D1F3020F6DA00146F73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74B9A5F030142E8C007B716E = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +102,7 @@
 				74B9A5FB30142E8C007B716E /* MenuMap */,
 				74B9A5FA30142E8C007B716E /* Products */,
 				74BBFFA13014D4DE00D74FD5 /* GoogleService-Info.plist */,
+				747A4D1F3020F6DA00146F73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +180,7 @@
 				74B9A608301431C0007B716E /* FirebaseAuth */,
 				74B9A60A301431C0007B716E /* FirebaseFirestore */,
 				74B9A60D301433A7007B716E /* GoogleMaps */,
+				747A4D203020F6DA00146F73 /* FirebaseMessaging */,
 			);
 			productName = MenuMap;
 			productReference = 74B9A5F930142E8C007B716E /* MenuMap.app */;
@@ -369,6 +393,7 @@
 				DEVELOPMENT_TEAM = N5Q8M2VZAV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MenuMap/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MenuMap;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Menü QR kodlarını tarayabilmek için kamera iznine ihtiyacımız var.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Haritada yakınındaki mekanları görebilmek için konum iznine ihtiyacımız var.";
@@ -381,7 +406,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.menumap.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -401,6 +426,7 @@
 				DEVELOPMENT_TEAM = N5Q8M2VZAV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MenuMap/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MenuMap;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Menü QR kodlarını tarayabilmek için kamera iznine ihtiyacımız var.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Haritada yakınındaki mekanları görebilmek için konum iznine ihtiyacımız var.";
@@ -413,7 +439,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.menumap.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -465,6 +491,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		747A4D203020F6DA00146F73 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74B9A607301431C0007B716E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
 		74B9A608301431C0007B716E /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 74B9A607301431C0007B716E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

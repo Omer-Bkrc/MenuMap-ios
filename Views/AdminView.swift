@@ -95,7 +95,7 @@ struct AdminView: View {
                         .foregroundColor(.primary)
                         .cornerRadius(8)
                 }
-                .buttonStyle(BorderlessButtonStyle()) // Çakışmayı önler
+                .buttonStyle(BorderlessButtonStyle())
                 
                 Button(action: { mapPreviewSub = sub }) {
                     Text("📍 Konuma Bak")
@@ -107,7 +107,7 @@ struct AdminView: View {
                         .foregroundColor(.blue)
                         .cornerRadius(8)
                 }
-                .buttonStyle(BorderlessButtonStyle()) // Çakışmayı önler
+                .buttonStyle(BorderlessButtonStyle())
             }
             
             // İşlem Butonları (Onayla & Reddet)
@@ -136,7 +136,7 @@ struct AdminView: View {
                             .cornerRadius(10)
                     }
                 }
-                .buttonStyle(BorderlessButtonStyle()) // Çakışmayı önler
+                .buttonStyle(BorderlessButtonStyle())
                 .disabled(isBusy)
                 
                 Button(action: {
@@ -152,7 +152,7 @@ struct AdminView: View {
                         .background(Color.black)
                         .cornerRadius(10)
                 }
-                .buttonStyle(BorderlessButtonStyle()) // Çakışmayı önler
+                .buttonStyle(BorderlessButtonStyle())
                 .disabled(isBusy)
             }
         }
@@ -251,7 +251,6 @@ struct AdminGMSMapViewWrapper: UIViewRepresentable {
     func makeUIView(context: Context) -> GMSMapView {
         let camera = GMSCameraPosition.camera(withLatitude: sub.latitude, longitude: sub.longitude, zoom: 15.0)
         
-        // GMSMapViewOptions kullanımı (Sarı uyarıyı çözer)
         let options = GMSMapViewOptions()
         options.camera = camera
         let mapView = GMSMapView(options: options)
